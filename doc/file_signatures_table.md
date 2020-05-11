@@ -8,3 +8,4 @@ This project refers to the article at [this address](https://www.garykessler.net
 |------:|:----------|------------:|
 |     1 | PNG       | 28/02/2020  |
 |     2 | JPEG      | 11/05/2020  |
+|     3 | BMP       | 11/05/2020  |
