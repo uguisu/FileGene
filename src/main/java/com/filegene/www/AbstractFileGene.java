@@ -3,16 +3,18 @@
  */
 package com.filegene.www;
 
+import com.filegene.www.lib.FileGeneEntity;
+
 /**
  * AbstractFileGene
  * @author uguisu
  */
 public abstract class AbstractFileGene implements IFileGene {
 
-    protected final String[] gene;
+    protected final FileGeneEntity[] gene;
     protected final String encode;
 
-    public AbstractFileGene(String[] gene, String encode) {
+    public AbstractFileGene(FileGeneEntity[] gene, String encode) {
         this.gene = gene;
         this.encode = encode;
     }
@@ -20,7 +22,7 @@ public abstract class AbstractFileGene implements IFileGene {
     /**
      * {@inheritDoc}
      */
-    public String[] getGene() {
+    public FileGeneEntity[] getGene() {
         return this.gene;
     }
     /**

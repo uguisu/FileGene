@@ -4,6 +4,7 @@ This project refers to the article at [this address](https://www.garykessler.net
 
 ## Supported formats
 
-|   #   | File type | Last Update |
+|   #   | File type | Last Update(DD/MM/YYYY) |
 |------:|:----------|------------:|
 |     1 | PNG       | 28/02/2020  |
+|     2 | JPEG      | 11/05/2020  |
