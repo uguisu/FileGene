@@ -31,4 +31,12 @@ public abstract class AbstractFileGene implements IFileGene {
     public String getEncode() {
         return this.encode;
     }
+
+    /**
+     * If a certain file type needs more detailed judgment
+     * @return additional genes list
+     */
+    public FileGeneEntity[] haveAdditionalGenes() {
+        return null;
+    }
 }
